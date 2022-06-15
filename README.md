@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Smart Watch 3
 
 一UI design for Smart Watch in OpenHarmony.
@@ -35,3 +36,7 @@ limitations under the License.
 
 Design by : Dharma Seelan
 
+=======
+# Smart_Watch_Three-1
+open harmony repository
+>>>>>>> 117501f7eeda2fdd2be569ec21afb9d9c8c0f55d
