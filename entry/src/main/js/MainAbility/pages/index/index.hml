@@ -6,7 +6,7 @@
         <div class="weather">
             <image src="{{ partly__sunny }}"></image>
         </div>
-        <div style="color : white; font-size : 6px; padding : 5px;">
+        <div style="color : white; font-size : 6vp; padding : 5vp;">
             <text>{{ weather_description }}</text>
         </div>
     </div>
@@ -36,7 +36,7 @@
         </div>
     </div>
     <div class="child4">
-        <div style="color : white; font-size : 8px; margin-top : -10px;">
+        <div style="color : white; font-size : 8vp; margin-top : -10vp;">
             <text> {{ date_d }} {{ date_m }} | {{ date_w }}</text>
         </div>
     </div>
@@ -45,18 +45,18 @@
             <image src="{{ calories_img }}"/>
         </div>
         <progress class="min_progress_calories" type="ring" percent="{{ min_progress_calories }}"></progress>
-        <div style="color : white; font-size : 10px; color : dodgerblue; padding-top : 5px; padding-left : 4px;">
+        <div style="color : white; font-size : 10vp; color : dodgerblue; padding-top : 5vp; padding-left : 4vp;">
             <text>{{ min_progress_calories * 100 }}</text>
         </div>
-        <div style="color : white; font-size : 6px; color : grey; padding-top : 8px; margin-left : 3px;
-                margin-right : 3px;">
+        <div style="color : white; font-size : 6vp; color : grey; padding-top : 8vp; margin-left : 3vp;
+                margin-right : 3vp;">
             <text>Kcal</text>
         </div>
         <div class="foots">
             <image src="{{ foots }}"/>
         </div>
         <progress class="min_progress_footSteps " type="ring" percent="{{ min_progress_footSteps }}"></progress>
-        <div style="color : white; color : orange; margin-left : -10px; font-size : 10px; padding-top : 5px">
+        <div style="color : white; color : orange; margin-left : -10vp; font-size : 10vp; padding-top : 5vp">
             <text> {{ min_progress_footSteps * 100 }}</text>
         </div>
     </div>

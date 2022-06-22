@@ -4,43 +4,43 @@
     flex-direction: column;
 }
 .second {
-    height: 2px;
-    width: 100px;
-    top: 103px;
-    left: 40px;
+    height: 2vp;
+    width: 100vp;
+    top: 103vp;
+    left: 40vp;
 }
 .centre {
-    height: 18px;
-    width: 18px;
-    top: 95px;
-    left: 10px;
-    right: 9px;
+    height: 18vp;
+    width: 18vp;
+    top: 95vp;
+    left: 10vp;
+    right: 9vp;
 }
 .hour {
-    height: 35px;
-    width: 40px;
-    top: 108px;
-    left: 5px;
+    height: 35vp;
+    width: 40vp;
+    top: 108vp;
+    left: 5vp;
 }
 .minute {
-    height: 80px;
-    width: 15px;
-    top: 15px;
-    left: -42px;
+    height: 80vp;
+    width: 15vp;
+    top: 15vp;
+    left: -42vp;
 }
 .point_2 {
     position: absolute;
-    top: 100px;
-    left: 10px;
-    height: 6px;
-    width: 6px;
+    top: 100vp;
+    left: 10vp;
+    height: 6vp;
+    width: 6vp;
 }
 .point_3 {
     position: absolute;
-    top: 100px;
-    left: 220px;
-    height: 6px;
-    width: 6px;
+    top: 100vp;
+    left: 220vp;
+    height: 6vp;
+    width: 6vp;
 }
 .child1 {
     width: 100%;
@@ -51,51 +51,51 @@
     justify-content: center;
 }
 .child3 {
-    height: 166px;
+    height: 166vp;
 }
 .child4 {
     justify-content: center;
 }
 .min_progress_calories {
-    width: 20px;
-    height: 25px;
-    margin-left: -10px;
-    margin-bottom: -15px;
-    stroke-width: 3px;
+    width: 20vp;
+    height: 25vp;
+    margin-left: -10vp;
+    margin-bottom: -15vp;
+    stroke-width: 3vp;
 }
 .child5 {
     justify-content: center;
-    margin-top: 0px;
+    margin-top: 0vp;
 }
 .point {
-    height: 6px;
-    width: 6px;
+    height: 6vp;
+    width: 6vp;
 }
 .weather {
-    height: 15px;
-    width: 15px;
+    height: 15vp;
+    width: 15vp;
 }
 .weather_des {
-    width: 40px;
-    font-size: 0.5px;
+    width: 40vp;
+    font-size: 0.5vp;
     color: white;
 }
 .calories_img {
-    width: 10px;
-    height: 17px;
-    top: 5px;
-    left: 5px;
+    width: 10vp;
+    height: 17vp;
+    top: 5vp;
+    left: 5vp;
 }
 .foots {
-    width: 17px;
-    height: 20px;
-    bottom: -2px;
-    left: 3px;
+    width: 17vp;
+    height: 20vp;
+    bottom: -2vp;
+    left: 3vp;
 }
 .min_progress_footSteps {
-    width: 20px;
-    height: 25px;
-    right: 15px;
+    width: 20vp;
+    height: 25vp;
+    right: 15vp;
     color: orange;
-    stroke-width: 3px;
+    stroke-width: 3vp;
 }

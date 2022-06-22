@@ -1,8 +1,11 @@
 {
-  "strings": {
+  "string": {
     "hello": "您好",
     "world": "世界"
   },
   "Files": {
+  },
+  "strings": {
+    "start_count": "开始步数"
   }
 }
