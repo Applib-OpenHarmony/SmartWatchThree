@@ -21,6 +21,7 @@ Smart Watch three shows following functionalites;
 
 
 ## Screenshot of the Library:
+![lib](https://user-images.githubusercontent.com/61938892/176523931-5885bcb5-49a7-4f01-8a54-75f82697069f.PNG)
 
 
 
@@ -96,6 +97,7 @@ function subscribePedometerSensor(context) {
 ### Screenshot:
 
 
+![lol](https://user-images.githubusercontent.com/61938892/176526712-1ec566c4-166f-41c5-8505-60bdfcb2722c.PNG)
 
 ## Advanced feature that could be implemented in Future in this library: 
 Calculating Blood Pressure and Calories Burned using respective API’s.
