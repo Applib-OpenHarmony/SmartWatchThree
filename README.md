@@ -28,7 +28,7 @@ Smart Watch three shows following functionalites;
 
 # Library Feature1:
 ### Description:
-It fetches weather details from the API's
+It fetches weather , date , time  details from the API's
 ### Code Snippet:
 ```
 fetchWeather: function () {
@@ -73,12 +73,12 @@ In fetchWeather function it will first fetches the locations details of the user
  using openweather api fetches the weather details based on the latitude and longitude.
 
 
-### Screenshot: 
+
 
 
 # Library Feature2:
 ### Description: 
-Calculates number of steps walked.
+fetch the number of steps walked.
 
 ### Code Snippet:
 ```
