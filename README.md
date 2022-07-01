@@ -66,6 +66,8 @@ fetchWeather: function () {
 ```
 
 ### Screenshot:
+![ss](https://user-images.githubusercontent.com/61938892/176961206-55867170-18f5-4f4d-b899-ff8b66fcd4ba.jpeg)
+
 
 
 ### Flow chart description:
