@@ -29,41 +29,6 @@ Smart Watch three shows following functionalites;
 # Library Feature1:
 ### Description:
 It fetches weather , date , time  details from the API's
-### Code Snippet:
-```
-fetchWeather: function () {
-        var dataw = JSON.stringify(item);
-        let weather_api_input = JSON.parse(dataw);
-        let data;
-        fetch.fetch({
-            url: "https://api.openweathermap.org/data/2.5/weather?lat=" + weather_api_input[0].latitude + "&lon=" + weather_api_input[0].longitude + "&appid=" + weather_api_input[0].api_key,
-            responseType: "json",
-            method: 'GET',
-            success: function (resp) {
-                data = JSON.stringify(resp);
-                console.info('Weather data fetch success. Resp: ' + data);
-            },
-            fail: function (data, code) {
-                console.log("fail data: " + JSON.stringify(data) + " fail code: " + code);
-            },
-            complete: () => {
-                const { main } = data.weather[0];
-                this.weather = main;
-                this.weather_description = main;
-            }
-        })
-    },
-    fetchNotification: function () {
-        let data;
-        fetch.fetch({
-            complete: () => {
-                this.notification = data.notification;
-                this.min_progress_calories = data.min_progress_calories;
-                this.min_progress_footSteps = data.min_progress_footSteps;
-            }
-        })
-    }
-```
 
 ### Screenshot:
 ![ss](https://user-images.githubusercontent.com/61938892/176961206-55867170-18f5-4f4d-b899-ff8b66fcd4ba.jpeg)
@@ -82,20 +47,6 @@ In fetchWeather function it will first fetches the locations details of the user
 ### Description: 
 fetch the number of steps walked.
 
-### Code Snippet:
-```
-function subscribePedometerSensor(context) {
-    sensor.subscribeStepCounter({
-        success: function (ret) {
-            context.mySteps = ret.steps.toString()
-        },
-        fail: function (data, code) {
-            console.log('Subscription failed. Code: ' + code + '; Data: ' + data)
-        }
-    })
-}
-
-```
 ### Screenshot:
 
 
@@ -106,5 +57,5 @@ Calculating Blood Pressure and Calories Burned using respective API’s.
 
 
 ## Conclusion:
-smart watch three calculates Number of steps walked, Calories burned, fetches date and time and weather details based on location and notifications.
+Smart watch three calculates Number of steps walked, Calories burned, fetches date and time and weather details based on location and notifications.
 
