@@ -1,0 +1,101 @@
+.container {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+.second {
+    height: 2vp;
+    width: 100vp;
+    top: 103vp;
+    left: 40vp;
+}
+.centre {
+    height: 18vp;
+    width: 18vp;
+    top: 95vp;
+    left: 10vp;
+    right: 9vp;
+}
+.hour {
+    height: 35vp;
+    width: 40vp;
+    top: 108vp;
+    left: 5vp;
+}
+.minute {
+    height: 80vp;
+    width: 15vp;
+    top: 15vp;
+    left: -42vp;
+}
+.point_2 {
+    position: absolute;
+    top: 100vp;
+    left: 10vp;
+    height: 6vp;
+    width: 6vp;
+}
+.point_3 {
+    position: absolute;
+    top: 100vp;
+    left: 220vp;
+    height: 6vp;
+    width: 6vp;
+}
+.child1 {
+    width: 100%;
+    justify-content: center;
+}
+.child2 {
+    width: 100%;
+    justify-content: center;
+}
+.child3 {
+    height: 166vp;
+}
+.child4 {
+    justify-content: center;
+}
+.min_progress_calories {
+    width: 20vp;
+    height: 25vp;
+    margin-left: -10vp;
+    margin-bottom: -15vp;
+    stroke-width: 3vp;
+}
+.child5 {
+    justify-content: center;
+    margin-top: 0vp;
+}
+.point {
+    height: 6vp;
+    width: 6vp;
+}
+.weather {
+    height: 15vp;
+    width: 15vp;
+}
+.weather_des {
+    width: 40vp;
+    font-size: 0.5vp;
+    color: white;
+}
+.calories_img {
+    width: 10vp;
+    height: 17vp;
+    top: 5vp;
+    left: 5vp;
+}
+.foots {
+    width: 17vp;
+    height: 20vp;
+    bottom: -2vp;
+    left: 3vp;
+}
+.min_progress_footSteps {
+    width: 20vp;
+    height: 25vp;
+    right: 15vp;
+    color: orange;
+    stroke-width: 3vp;
+}
